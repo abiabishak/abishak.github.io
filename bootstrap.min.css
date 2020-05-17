@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><title>https://nusratshimu.github.io/module1-solution/</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css"></head><body id="viewsource" class="highlight" style="-moz-tab-size: 4" contextmenu="actions"><pre id="line1"><span></span><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">lang</span>="<a class="attribute-value">en</a>" <span class="attribute-name">ng-app</span>="<a class="attribute-value">LunchCheck</a>"&gt;</span><span>
+<span id="line3"></span>    </span><span>&lt;<span class="start-tag">head</span>&gt;</span><span>
+<span id="line4"></span>        </span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>Module 1</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line5"></span>        </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://nusratshimu.github.io/module1-solution/style.css">./style.css</a>"&gt;</span><span>
+<span id="line6"></span>        </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://nusratshimu.github.io/module1-solution/angular.min.js">angular.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line7"></span>        </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://nusratshimu.github.io/module1-solution/app.js">app.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line8"></span>        </span><span>&lt;<span class="start-tag">link</span> <span class="attribute-name">rel</span>="<a class="attribute-value">stylesheet</a>" <span class="attribute-name">href</span>="<a class="attribute-value" href="view-source:https://nusratshimu.github.io/module1-solution/bootstrap.min.css">bootstrap.min.css</a>"&gt;</span><span>
+<span id="line9"></span>    </span><span>&lt;<span class="start-tag">style</span>&gt;</span><span>
+<span id="line10"></span>      .message { font-size: 1.3em; font-weight: bold; }
+<span id="line11"></span>    </span><span>&lt;/<span class="end-tag">style</span>&gt;</span><span>
+<span id="line12"></span>    </span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span>
+<span id="line13"></span>    </span><span>&lt;<span class="start-tag">body</span>&gt;</span><span>
+<span id="line14"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">container</a>" <span class="attribute-name">ng-controller</span>="<a class="attribute-value">LunchCheckController</a>"&gt;</span><span>
+<span id="line15"></span>    </span><span>&lt;<span class="start-tag">h1</span> <span class="attribute-name">class</span>="<a class="attribute-value">text-primary</a>"&gt;</span><span>Lunch Checker</span><span>&lt;/<span class="end-tag">h1</span>&gt;</span><span>
+<span id="line16"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">form-group</a>" &gt;</span><span>
+<span id="line17"></span>            </span><span>&lt;<span class="start-tag">input</span> <span class="attribute-name">id</span>="<a class="attribute-value">lunch-menu</a>"
+<span id="line18"></span>                <span class="attribute-name">placeholder</span>="<a class="attribute-value">list comma separated dishes you usually have for lunch</a>"
+<span id="line19"></span>                <span class="attribute-name">type</span>="<a class="attribute-value">text</a>" <span class="attribute-name">class</span>="<a class="attribute-value">items</a>" <span class="attribute-name">ng-model</span>="<a class="attribute-value">items</a>"&gt;</span><span>
+<span id="line20"></span>        </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line21"></span>        </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">class</span>="<a class="attribute-value">form-group</a>"&gt;</span><span>
+<span id="line22"></span>
+<span id="line23"></span>        </span><span>&lt;<span class="start-tag">button</span> <span class="attribute-name">class</span>="<a class="attribute-value">btn btn-primary</a>" <span class="attribute-name">ng-click</span>="<a class="attribute-value">itemsCheck();</a>"&gt;</span><span>
+<span id="line24"></span>          Check If Too Much
+<span id="line25"></span>        </span><span>&lt;/<span class="end-tag">button</span>&gt;</span><span>
+<span id="line26"></span>      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line27"></span>      </span><span>&lt;<span class="start-tag">b</span>&gt;</span><span></span><span>&lt;<span class="start-tag">p</span> <span class="attribute-name">class</span>="<a class="attribute-value">text-primary</a>"&gt;</span><span>{{message}}</span><span>&lt;/<span class="end-tag">p</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">b</span>&gt;</span><span>
+<span id="line28"></span>  </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line29"></span>    </span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span>
+<span id="line30"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span>
+<span id="line31"></span></span></pre><menu type="context" id="actions"><menuitem id="goToLine" label="Go to Line…" accesskey="L"></menuitem><menuitem id="wrapLongLines" label="Wrap Long Lines" type="checkbox"></menuitem><menuitem id="highlightSyntax" label="Syntax Highlighting" type="checkbox" checked="true"></menuitem></menu></body></html>
