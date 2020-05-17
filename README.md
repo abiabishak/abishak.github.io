@@ -1,2 +1,0 @@
-# abishak.github.io
-sample
